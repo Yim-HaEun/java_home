@@ -24,6 +24,19 @@ public class practice6 {
 			System.out.print(i + " ");
 		}
 
+		/*Math 자바의 내장 클래스
+		min
+  		max
+
+		int a =5;
+  		int b= 8;
+  		int minval = Math.min(a,b); 5가 저장됨
+    		System.out.println(minval);
+      
+    		int maxval = Math.max(a,b); 8이 저장됨
+      		System.out.println(maxval);
+
+			*/
 	}
 
 }
