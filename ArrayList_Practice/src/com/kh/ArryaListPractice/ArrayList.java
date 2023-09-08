@@ -39,7 +39,16 @@ public class ArrayList {
 		for (String color : rainbow) {
 					System.out.println(color);
 				}
-		
+		//마지막 최후 출력
+		//1.인덱스 이용해서 자리출력
+		colors.set(7,남);
+		System.out.println("최후출력:"+colors.get(0) + " " + colors.get(7) +" " + colors.get(8);
+		//2.초기화 후 출력
+		ArrayList<String> rb = new ArrayList<>();
+		rb.add("빨");
+		rb.add("남");
+		rb.add("보");
+		System.out.println("최후 출력 : " + rb.get(0)+ " "+ rb.get(1)+ " " + rb.get(2));
 
 	}
 
