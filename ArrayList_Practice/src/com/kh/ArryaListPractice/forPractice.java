@@ -14,10 +14,11 @@ public class forPractice {
 			arr1[i] = n;
 			
 		}
+		int sum = 0;
 		for(int num : arr1) {
-			System.out.print(num);
+			sum+=num;
 		}
-		
+		System.out.print(sum);
 	}
 
 }
