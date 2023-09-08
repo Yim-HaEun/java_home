@@ -7,13 +7,7 @@ public class ArrayListNumbers {
 		//int[] numbers = {1,2,3,4,5}
 		ArrayList<int> numbers = new ArrayList<>();
 		
-		numbers.add(1);
-		numbers.add(2);
-		numbers.add(3);
-		numbers.add(4);
-		numbers.add(5);
-		
-		System.out.println(numbers);
+		int[] numbers = {1,2,3,4,5};
 		
 		System.out.println("향상된 for문을 이용해서 숫자 출력 ");
 		for (String num : numbers) {
